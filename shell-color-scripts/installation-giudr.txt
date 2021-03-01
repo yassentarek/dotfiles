@@ -1,4 +1,5 @@
 https://github.com/yassentarek/my-dotfiles.git
 
 color script is a program for terminal made by youtuber dt 
-to install follow the link above
+to install follow the link above.
+clone the modified colors dir to the installation path
