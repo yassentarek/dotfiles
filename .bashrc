@@ -91,6 +91,7 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+shopt -s autocd 		# enable auto cd, just write the path and it will auto cd 
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -116,11 +117,11 @@ if ! shopt -oq posix; then
   fi
 fi 
 
-eval "$(starship init bash)"
+eval "$(starship init bash)" 	# trigger the starship prompt
 
-colorscript random
+colorscript random 		# trigger the color script program
+
+fish 				# fish shell
 
 
-fish
-
-
+source "$HOME/.cargo/env"
