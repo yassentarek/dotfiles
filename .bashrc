@@ -117,11 +117,10 @@ if ! shopt -oq posix; then
   fi
 fi 
 
+fish 				# fish shell
+
 eval "$(starship init bash)" 	# trigger the starship prompt
 
 colorscript random 		# trigger the color script program
 
-fish 				# fish shell
 
-
-source "$HOME/.cargo/env"
