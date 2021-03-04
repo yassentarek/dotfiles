@@ -13,11 +13,13 @@
 #   ...
 # end
 #
-starship init fish | source
 
 fish_vi_key_bindings
 
 set fish_greeting
 
 alias rm='trash'
+alias ..="cd .."
+colorscript random
+starship init fish | source
 
