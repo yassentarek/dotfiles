@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 ### this file is bieng executed by systemd /etc/systemd/system/startup.service ###
 
