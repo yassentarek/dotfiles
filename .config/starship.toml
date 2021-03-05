@@ -14,12 +14,26 @@ disabled = true
 
 [directory]
 read_only = " 🔒"
-truncation_length = 4
+truncation_length = 5
 style = "bold dimmed cyan"
 
-#[hostname]
-#ssh_only = false
-#format =  "[$hostname](bold dimmed blue) "
-#trim_at = ".companyname.com"
-#disabled = false 
+[git_commit]
+commit_hash_length = 8
+style = "bold white"
 
+[git_state]
+progress_divider = " of "
+
+[git_status]
+conflicted = "⚔️  "
+ahead = "× ${count} "
+behind = "  ${count} "
+diverged = " × ${ahead_count}   ${behind_count} "
+untracked = " ${count} "
+stashed = " 📦 "
+modified = "📝 ${count} "
+staged = "🗃️  ${count} "
+renamed = "👅 ${count} "
+deleted = "🗑️  ${count} "
+style = "bright-white"
+format = "$all_status$ahead_behind"
