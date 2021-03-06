@@ -117,10 +117,11 @@ if ! shopt -oq posix; then
   fi
 fi 
 
-fish 				# fish shell
+
 
 eval "$(starship init bash)" 	# trigger the starship prompt
 
-colorscript random 		# trigger the color script program
 
+fish 				# fish shell
 
+alias gitbare='/usr/bin/git --git-dir=/home/yassen/Public/git-bare --work-tree=/home/yassen'
