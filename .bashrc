@@ -124,4 +124,3 @@ eval "$(starship init bash)" 	# trigger the starship prompt
 
 fish 				# fish shell
 
-alias gitbare='/usr/bin/git --git-dir=/home/yassen/Public/git-bare --work-tree=/home/yassen'

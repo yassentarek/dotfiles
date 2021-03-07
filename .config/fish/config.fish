@@ -12,3 +12,18 @@
 # if status --is-interactive
 #   ...
 # end
+#
+
+fish_vi_key_bindings			# the fish key mode - here is set to vim - 	
+set fish_cursor_insert line blink	# set the cursor shape to line
+set fish_cursor_default line blink	# set the cursor shape to line
+set fish_cursor_visual block
+set fish_greeting			# disable the fish greeting
+
+### some aliases
+alias rm='trash'
+alias ..="cd .."
+
+colorscript random			# trigger the color welcome script
+starship init fish | source		# trigger the starship prombt
+
