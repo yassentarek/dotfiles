@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/yassen/Documents/linux/git-cheatsheet'
+let g:netrw_dirhist_4='/home/yassen/Documents/linux'
+let g:netrw_dirhist_3='/home/yassen/Documents/linux/fish-cheatsheet'
+let g:netrw_dirhist_2='/home/yassen/Documents/linux'
+let g:netrw_dirhist_1='/home/yassen/Documents/linux/vim-cheatsheet'
+let g:netrw_dirhist_0='/home/yassen/.vim'
+let g:netrw_dirhist_9='/home/yassen/Documents/vim-cheatsheet'
+let g:netrw_dirhist_8='/home/yassen/Documents'
+let g:netrw_dirhist_7='/home/yassen'
+let g:netrw_dirhist_6='/home/yassen/Downloads'
