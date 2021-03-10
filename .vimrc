@@ -63,8 +63,8 @@ set number
 set incsearch
 set noswapfile
 set nobackup
+set nohlsearch
 set undodir=~/.vim/undodir
 set undofile
 set scrolloff=8
 set signcolumn=yes
-

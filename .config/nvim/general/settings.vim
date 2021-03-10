@@ -11,11 +11,12 @@ set splitbelow                          " Horizontal splits will automatically b
 set splitright                          " Vertical splits will automatically be to the right
 set conceallevel=0                      " So that I can see `` in markdown files
 set smarttab                            " Makes tabbing smarter will realize you have 2 vs 4
+set nohlsearch
 set expandtab                           " Converts tabs to spaces
 set smartindent                         " Makes indenting smart
 set autoindent                          " Good auto indent
 set cursorline                          
-set showtabline=4 
+set showtabline=2 
 set relativenumber
 set number                              " Line numbers
 set laststatus=0                        " Always display the status line
