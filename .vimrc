@@ -53,7 +53,9 @@ if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
 
-set showcmd
+
+set relativenumber
+set nowrap
 set expandtab
 set smartindent
 set tabstop=4 softtabstop=4
@@ -65,3 +67,4 @@ set undodir=~/.vim/undodir
 set undofile
 set scrolloff=8
 set signcolumn=yes
+
