@@ -92,6 +92,9 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 shopt -s autocd 		# enable auto cd, just write the path and it will auto cd 
+alias rm='trash'
+alias rm -r='trash'
+alias rm -rf='trash'
 alias v='nvim'
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
