@@ -20,10 +20,19 @@ set fish_cursor_default line blink	# set the cursor shape to line
 set fish_cursor_visual block
 set fish_greeting			# disable the fish greeting
 
-### some aliases
-alias rm='trash'
-alias ..="cd .."
+shopt -s autocd         # enable auto cd, just write the path and it will auto cd  
+alias rm='trash' 
+alias ..='cd ..' 
+alias v='nvim' 
+alias src='source ~/.bashrc' 
+alias s='source' 
+alias i='sudo apt install' 
+alias r='sudo apt remove' 
+alias u='sudo apt update' 
+alias ug='sudo apt upgrade' 
+
 
 colorscript random			# trigger the color welcome script
+
 starship init fish | source		# trigger the starship prombt
 
