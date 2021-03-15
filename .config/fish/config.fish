@@ -20,7 +20,6 @@ set fish_cursor_default line blink	# set the cursor shape to line
 set fish_cursor_visual block
 set fish_greeting			# disable the fish greeting
 
-shopt -s autocd         # enable auto cd, just write the path and it will auto cd  
 alias rm='trash' 
 alias ..='cd ..' 
 alias v='nvim' 
