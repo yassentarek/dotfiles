@@ -104,6 +104,7 @@ alias r='sudo apt remove'
 alias u='sudo apt update'
 alias ug='sudo apt upgrade'
 alias s='sudo apt search'
+alias show='sxiv'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert

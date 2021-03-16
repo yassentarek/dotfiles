@@ -30,7 +30,7 @@ alias r='sudo apt remove'
 alias u='sudo apt update' 
 alias ug='sudo apt upgrade' 
 alias s='sudo apt search'
-
+alias show='sxiv'
 
 colorscript random			# trigger the color welcome script
 
