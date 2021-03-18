@@ -10,24 +10,21 @@ set mouse=a
 set splitbelow                       
 set splitright                       
 set conceallevel=0                   
-set smarttab                         
 set nohlsearch
-set expandtab                         
 set smartindent                       
 set autoindent                        
+set laststatus=0
 set cursorline                        
 set showtabline=2 
 set relativenumber
 set number                            
 set laststatus=0                      
-set expandtab
+set t_Co=256
 set smartindent
-set tabstop=4 softtabstop=4
+set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 set background=dark                
 set scrolloff=8
 set signcolumn=yes
 set nobackup                          
 set nowritebackup                     
-set updatetime=300                    
-set timeoutlen=500                    
 set clipboard=unnamedplus             
