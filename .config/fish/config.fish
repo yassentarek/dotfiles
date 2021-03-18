@@ -31,7 +31,7 @@ alias u='sudo apt update'
 alias ug='sudo apt upgrade' 
 alias s='sudo apt search'
 alias show='sxiv'
-alias du='du -sh *'
+alias ds='du -sh *'
 alias cat='batcat'
 
 colorscript random			# trigger the color welcome script
