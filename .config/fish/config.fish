@@ -31,6 +31,8 @@ alias u='sudo apt update'
 alias ug='sudo apt upgrade' 
 alias s='sudo apt search'
 alias show='sxiv'
+alias view='zathura'
+alias play='mpv'
 alias ds='du -sh *'
 alias cat='batcat'
 
