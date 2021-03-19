@@ -9,4 +9,4 @@ sync; echo 2 > /proc/sys/vm/drop_caches
 
 free -h > /home/yassen/Desktop/after
 
-date
+date >> /home/yassen/Desktop/after
