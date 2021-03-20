@@ -35,7 +35,7 @@ alias view='zathura'
 alias play='mpv'
 alias ds='du -sh *'
 alias cat='batcat'
-
+alias history='history | nl'
 colorscript random			# trigger the color welcome script
 
 starship init fish | source		# trigger the starship prombt
