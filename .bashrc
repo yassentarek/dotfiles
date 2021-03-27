@@ -1,4 +1,4 @@
-# ~/.bashrc: executed by bash(1) for non-login shells.
+# ~/.bashshrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
@@ -94,6 +94,10 @@ alias la='ls -A'
 alias l='ls -CF'
 shopt -s autocd 		# enable auto cd, just write the path and it will auto cd 
 alias rm='trash'
+alias t='trash'
+alias te='trash-empty'
+alias tl='trash-list'
+alias tr='trash-restore'
 alias ..='cd ..'
 alias v='nvim'
 alias src='source'

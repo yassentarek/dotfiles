@@ -21,6 +21,10 @@ set fish_cursor_visual block
 set fish_greeting			# disable the fish greeting
 
 alias rm='trash' 
+alias t='trash'
+alias te='trash-empty'
+alias tl='trash-list'
+alias tr='trash-restore'
 alias ..='cd ..' 
 alias v='nvim' 
 alias src='source' 
