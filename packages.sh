@@ -12,3 +12,6 @@ curl -fsSL https://starship.rs/install.sh | bash
 sudo add-apt-repository ppa:papirus/papirus
 sudo apt-get update
 sudo apt-get install papirus-icon-theme
+# install some arabic fonts use this links 
+# https://arbfonts.com/noto-sans-arabic-bold-font-download.html
+# https://arbfonts.com/noto-naskh-arabic-ui-font-download.html 
