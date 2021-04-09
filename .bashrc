@@ -107,7 +107,7 @@ alias img='sxiv'
 alias pdf='zathura'
 alias play='mpv'
 alias ds='du -sh *'
-alias cat='batcat'
+alias bat='batcat'
 alias history='history | nl'
 
 # Add an "alert" alias for long running commands.  Use like so:
@@ -140,5 +140,3 @@ eval "$(starship init bash)" 	# trigger the starship prompt
 
 
 fish 				# fish shell
-
-

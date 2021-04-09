@@ -21,10 +21,6 @@ set fish_cursor_visual block
 set fish_greeting			# disable the fish greeting
 
 alias rm='trash' 
-alias t='trash'
-alias te='trash-empty'
-alias tl='trash-list'
-alias tr='trash-restore'
 alias ..='cd ..' 
 alias v='nvim' 
 alias src='source' 
@@ -38,7 +34,7 @@ alias img='sxiv'
 alias pdf='zathura'
 alias play='mpv'
 alias ds='du -sh *'
-alias cat='batcat'
+alias bat='batcat'
 alias history='history | nl'
 colorscript random			# trigger the color welcome script
 
