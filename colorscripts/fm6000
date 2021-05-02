@@ -1,0 +1,4 @@
+#!/bin/bash
+
+~/.config/./fm6000 -c bright_cyan
+
