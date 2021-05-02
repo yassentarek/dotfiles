@@ -7,6 +7,8 @@ sudo apt install python3 python3-pip vim neovim dmenu rofi firefox  htop youtube
 #download the colorscript repo - installation is in https://gitlab.com/dwt1/shell-color-scripts.git
 sudo git clone https://gitlab.com/yassen.tarek23/shell-color-scripts.git
 #download starship prombet 
+curl https://raw.githubusercontent.com/anhsirk0/fetch-master-6000/master/fm6000.pl --output fm6000
+#chmod +x the fm6000 file 
 curl -fsSL https://starship.rs/install.sh | bash
 #download icon theme 
 sudo add-apt-repository ppa:papirus/papirus
