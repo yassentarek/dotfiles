@@ -2,7 +2,7 @@
 
 # script to free up some ram run it with cron
 
-free -h > /home/yassen/Desktop/befor
+#free -h > /home/yassen/Desktop/befor
 
 sync; echo 1 > /proc/sys/vm/drop_caches
 sync; echo 2 > /proc/sys/vm/drop_caches
