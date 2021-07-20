@@ -19,3 +19,5 @@ sudo apt-get install papirus-icon-theme
 # https://arbfonts.com/noto-sans-arabic-bold-font-download.html
 # https://arbfonts.com/noto-naskh-arabic-ui-font-download.html 
 #download imagemagice and move the policy.xml to /etc/imagemagic.. to edit the original policy it enables imagemagic to make pdf file from multible images 
+# the dir gnome-terminal is to change the terminal theme put it in ~ 
+
